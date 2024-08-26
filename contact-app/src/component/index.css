@@ -1,0 +1,90 @@
+
+.bg{
+    background-color: black;
+    height: 50%;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+*{
+    color: #000;
+}
+.AllContact-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+    height: 50px;
+}
+.AllContact-header{
+    font-family: 'roboto';
+    font-size: 24px;
+
+}
+.plus{
+    margin: 20px;
+    height: 20px !important ; 
+
+}
+.searchInput{
+    border:none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left:80px ;
+}
+.button{
+    background-color: transparent;
+    border: none;
+}
+.modal {
+    font-size: 12px;
+    background-color: #000000;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .labelText{
+    color: #ffffff;
+    padding: 20px;
+  }
+  .button1{
+    background-color: aqua;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    margin-left:20px ;
+  }
+  .color{
+    background-color: red;
+  }

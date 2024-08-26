@@ -1,0 +1,100 @@
+
+:root {
+    --icon-color: #000;
+  }
+.button{
+    background-color:transparent;
+    border: none;
+    
+}
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    background-color: #65a8eb;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.text{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.profile{
+    padding-top: 20px;
+    padding: 10px;
+    height: 30px !important;
+}
+.buttons-card{
+    padding: 10px;
+
+}
+*{
+    color: #ffffff;
+}
+.buttons-card1{
+    padding: 10px;
+    margin-left:auto ;
+    margin-right: 10px;
+
+}
+.id{
+    padding-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.modal {
+    font-size: 12px;
+    background-color: #000000;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff !important;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    color: #ffffff !important;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .labelText{
+    color: #ffffff;
+    padding: 20px;
+  }
+  .button1{
+    background-color: aqua;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    margin-left:20px ;
+  }
+  .color{
+    background-color: red;
+  }
